@@ -13,8 +13,8 @@ public class CP {
 			
 			//create the Connection
 			String user = "root"; //user of mysql
-			String password =""; //password of mysql
-			String url = "jdbc:mysql://localhost:3307/student";
+			String password ="adiar143@"; //password of mysql
+			String url = "jdbc:mysql://localhost:3306/student";
 			con = DriverManager.getConnection(url,user,password);
 			
 			
