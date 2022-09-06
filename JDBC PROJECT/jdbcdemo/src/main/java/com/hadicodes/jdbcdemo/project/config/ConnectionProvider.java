@@ -13,6 +13,6 @@ public class ConnectionProvider
 
 	public static Connection makeConnection_Mysql() throws SQLException 
 	{
-		return DriverManager.getConnection("jdbc:mysql://localhost:3306/mysql", "root", "root");
+		return DriverManager.getConnection("jdbc:mysql://localhost:3306/adi_db", "root", "adiar143@");
 	} 
 }
